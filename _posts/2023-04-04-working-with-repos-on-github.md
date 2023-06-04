@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Working with Repos on GitHub"
+author: "Raman Adlakha"
+categories: story
+tags: [tag1,tag2]
+image: city-1.jpg
+---
+
 # Working with repos on GitHub
 
 Follow the below instructions to 
