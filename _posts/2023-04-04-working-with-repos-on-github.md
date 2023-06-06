@@ -4,7 +4,7 @@ title: "Working with Repos on GitHub"
 author: "Raman Adlakha"
 categories: story
 tags: [tag1,tag2]
-image: cupola.jpg
+image: boy-in-park.jpg
 ---
 
 # Working with repos on GitHub
