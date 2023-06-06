@@ -10,8 +10,8 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Bits and Pixels"
-description:	       "Coding next to some of my photographs"
+title:		           "Stick Shift"
+description:	       "Talks about Coding next to some of my photographs"
 author:              "Raman Adlakha"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines

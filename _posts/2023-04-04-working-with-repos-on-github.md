@@ -17,11 +17,18 @@ Follow the below instructions to
 
 ---
 
-- Setting up your dev env and downloading the code
+- **Setting up your dev env and downloading the code**
     
-    TODO
+    - I prefer to use codespaces, though, you can use a local dev env too
+    - Refer to Readme in the repo for instructions to setup your dev env
+
     
-- W**orking on your feature/refactor/bug**
+- **Working on your feature/refactor/bug**
+    - If this is the first time accessing the repo you can clone it to your dev env
+    ```bash
+    git clone <url>
+    ```
+
     - Start with the latest and greatest codebase
     
     ```bash
@@ -43,7 +50,7 @@ Follow the below instructions to
     ```bash
     git status
     git add *
-    git commit -m 'Did this and that'
+    git commit -m 'Do this and that'
     # the first time
     git push origin this_is_the_branch_i_will_be_working_on
     # subsequently you can just say
@@ -60,38 +67,38 @@ Follow the below instructions to
     # Then switch back to feature branch and merge in main
     git checkout this_is_the_branch_i_will_be_working_on
     git merge main
-    git commit -m 'Merged latest from main. Now ready to create PR'
+    git commit -m 'Merge latest from main. Now ready to create PR'
     ```
     
     - Now head over to the web interface and create a PR from your branch. Refer your branch for review and propose it be merged into the main
 - **Review process**
     - A reviewer will receive your PR and will start the reviewing process by reading your PR request. Make sure you did a good job of describing changes. If your team uses a PR Template it will show up automatically when drafting PR.
     - Reviewers will add comments to your PR overall and/or against the code you submitted by going to the ‘Files changed’ tab. Respond to these comments.
-    - If you are required to take action head over to your local repo and make changes. Once done push your code up to remote again. The PR will be automatically updated
+    - If you are required to take action per the review, head over to your local repo and make changes. Once done push your code up to remote again. The PR will be automatically updated
     
     ```bash
     # switch to your branch
     git checkout this_is_the_branch_i_will_be_working_on
-    # just in case reviewer made any code changes on the fly (usually they don't)
+    # just in case reviewer made any code changes on the fly (usually they do not)
     git pull origin this_is_the_branch_i_will_be_working_on
     # make your changes and once done
     git status
     git add *
-    git commit -m 'added changed or whatever per the review comments'
+    git commit -m 'add change or whatever per the review comments'
     git push
     ```
     
-    - The reviewer will do the final checks. They may add some test cases, build your code and run locally before finally saying Yes
-    
+    - The reviewer will do the final checks. As a reviewer you may add some test cases, build the code and run locally before finally approving the PR.
+    - _Look further down for more tips for reviewers._
     ```bash
     # get the latest main in the local rep
     git checkout main
     git pull origin main
     # Then switch back to feature branch and merge in main
     git checkout this_is_the_branch_i_will_be_working_on
-    git merge master
-    git commit -m 'Merged latest from main. Now ready to create PR'
-    # now review, run the test cases etc to satisfy yourself this PRR (Pull Request Review uggh!) is ready to be approved
+    git merge main
+
+    # now review, run the test cases etc to satisfy yourself this PR is ready to be approved
     ```
     
 - **Time to merge with the main!**
@@ -100,7 +107,10 @@ Follow the below instructions to
     ```bash
     git checkout main
     git merge --no-ff this_is_the_branch_i_will_be_working_on
-    # OR, prefer squash. Read [this](https://blog.dnsimple.com/2019/01/two-years-of-squash-merge/) to understand why
+    ```
+    - OR, prefer squash. Read [this](https://blog.dnsimple.com/2019/01/two-years-of-squash-merge/) to understand why
+    
+    ```bash
     git merge --squash this_is_the_branch_i_will_be_working_on
     git push origin main
     ```
@@ -151,8 +161,13 @@ Follow the below instructions to
     git checkout -b this_is_the_branch_i_am_working_on origin/this_is_the_branch_i_am_working_on
     # :-) if you are going to be sharing your code, pick your branch names so they make sense universally and not just in your context
     ```
-    
-    - When it is time to get back to what you (the reviewer) were doing simply switch back to your branch
+    - Or, super simple is the new git command - switch
+
+    ```bash
+    git switch this_is_the_branch_i_am_working_on
+    ```
+
+    - When it is time to get back to what you (the reviewer) were doing, simply switch back to your branch
     
     ```bash
     git checkout this_is_my_work
@@ -177,7 +192,6 @@ Follow the below instructions to
 
 ---
 
-**Works Cited**
+*Works Cited*
 
-- Jim Vallandingham https://gist.github.com/vlandham[*Feature Branches and Pull Requests: Walkthrough*](https://gist.github.com/vlandham/3b2b79c40bc7353ae95a)
--
+1. Jim Vallandingham [*Feature Branches and Pull Requests: Walkthrough*](https://gist.github.com/vlandham/3b2b79c40bc7353ae95a)
