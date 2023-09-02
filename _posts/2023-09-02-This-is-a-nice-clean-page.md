@@ -31,7 +31,7 @@ So we use Zotero Pandoc Integration here using cmd-P
 
 Now we will attempt to insert an image below
 
-![](_assets/Pasted%20image%2020230902112454.png)
+![](/assets/Pasted%20image%2020230902112454.png)
 
 Above was directly pasted into the editor. If this works the image
 should also appear when we export using Pandoc.
@@ -49,7 +49,7 @@ page.pandoc.md” “E:is a nice clean page.md” -t markdown\_strict
 –citeproc –bibliography=E:.bib –extract-media=E:
 
 `pandoc --verbose --from markdown --to markdown -o "E:\works\coderepos\root\This is a nice clean page.pandoc.md" "E:\works\coderepos\root\This is a nice clean page.pandoc.md" -t markdown_strict --lua-filter=replace_path.lua`
-![](_assets/Pasted%20image%2020230902130619.png) *Pandoc Plugin settings
+![](/assets/Pasted%20image%2020230902130619.png) *Pandoc Plugin settings
 used by me*
 
 Lastly you should see list of references below.
