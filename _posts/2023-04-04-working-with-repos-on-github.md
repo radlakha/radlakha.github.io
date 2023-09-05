@@ -3,7 +3,7 @@ layout: post
 title: "Working with Repos on GitHub"
 author: "Raman Adlakha"
 categories: story
-tags: [tag1,tag2]
+tags: [2023]
 image: boy-in-park.jpg
 ---
 

@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "This is a nice clean page"
 author: "Raman Adlakha"
-categories: story
-tags: [tag1,tag2]
-image: planters.jpg
+layout: post
+title:  "This is a nice clean page"
+date:   2023-06-04 03:04:31 +0000
+categories: reference story
+image: cupola.jpg
 ---
 
 I have some text to introduce the concept. There is also some code
@@ -43,12 +43,10 @@ and then without! See settings screenshot below. Press CTRL-P (CMD-P)
 and type pan mar to highlight Export as Pandoc Markdown option
 
 Alternatively, run the following two commands from command line.
-`pandoc --verbose --from markdown --to markdown -o "E:\works\coderepos\root\This is a nice clean page.pandoc.md" "E:\works\DaZettelkasten\This is a nice clean page.md" -t markdown_strict --citeproc --bibliography=E:\works\DaZotero\MyLibrary.bib --extract-media=E:\works\coderepos\root`pandoc
-–verbose –from markdown –to markdown -o “E:is a nice clean
-page.pandoc.md” “E:is a nice clean page.md” -t markdown\_strict
-–citeproc –bibliography=E:.bib –extract-media=E:
+`pandoc --verbose --from markdown --to markdown -o "E:\works\coderepos\root\This is a nice clean page.pandoc.md" "E:\works\DaZettelkasten\This is a nice clean page.md" -t markdown_strict --citeproc --bibliography=E:\works\DaZotero\MyLibrary.bib --extract-media=E:\works\coderepos\root`
 
 `pandoc --verbose --from markdown --to markdown -o "E:\works\coderepos\root\This is a nice clean page.pandoc.md" "E:\works\coderepos\root\This is a nice clean page.pandoc.md" -t markdown_strict --lua-filter=replace_path.lua`
+
 ![](/assets/Pasted%20image%2020230902130619.png) *Pandoc Plugin settings
 used by me*
 
@@ -56,10 +54,22 @@ Lastly you should see list of references below.
 
 *References*
 
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-ahrensHowTakeSmart2017" class="csl-entry">
+
 Ahrens, Sönke. 2017. *How to Take Smart Notes: One Simple Technique to
 Boost Writing, Learning and Thinking: For Students, Academics and
 Nonfiction Book Writers*. North Charleston, SC: CreateSpace.
 
-Caulfield, Jack. 2020. “A Quick Guide to Harvard Referencing | Citation
+</div>
+
+<div id="ref-caulfieldQuickGuideHarvard2020" class="csl-entry">
+
+Caulfield, Jack. 2020. “A Quick Guide to Harvard Referencing \| Citation
 Examples.” *Scribbr*.
 https://www.scribbr.co.uk/referencing/harvard-style/.
+
+</div>
+
+</div>
