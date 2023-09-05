@@ -2,8 +2,8 @@
 layout: post
 title: "Learning Resources"
 author: "Paul Le"
-categories: resources
-tags: [documentation,sample]
+categories: reference
+tags: [2016]
 image: arctic-2.jpg
 ---
 
