@@ -2,9 +2,9 @@
 layout: post
 title: "Working with Repos on GitHub"
 author: "Raman Adlakha"
-categories: story
-tags: [2023]
-image: boy-in-park.jpg
+categories: note
+tags: [git]
+image: portrait_4983.jpg
 ---
 
 # Working with repos on GitHub

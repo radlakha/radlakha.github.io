@@ -2,8 +2,8 @@
 layout: post
 title: "Getting Started"
 author: "Paul Le"
-categories: reference
-tags: [2016]
+categories: archive
+tags: [sample]
 image: city-1.jpg
 ---
 
