@@ -2,8 +2,8 @@
 layout: post
 title: "Welcome to Millennial!"
 author: "Paul Le"
-categories: story
-tags: [2017, 2023]
+categories: archive
+tags: [sample]
 image: cuba-1.jpg
 ---
 
