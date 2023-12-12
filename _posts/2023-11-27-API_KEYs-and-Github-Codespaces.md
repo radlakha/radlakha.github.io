@@ -4,8 +4,7 @@ bibliography: "D:.bib"
 categories: note
 image: Teacher.jpg
 layout: post
-tags:
-- github
+tags: codespaces github
 title: API_KEYs and GitHub Codespaces
 ---
 
@@ -23,12 +22,25 @@ GitHub Codespaces environment using environment variables:
     settings, scroll down to the “Codespaces secrets” section. Click
     “Add secret” and choose the secret you just created. This allows
     Codespaces to access it.
-3.  **Access the secret in your codespace.** To access the secret in
-    your codespace, you can set it as an environment variable. You can
-    do this by adding the following line to your .bashrc file: export
-    API_KEY=\$(`secrets.API_KEY1`). This will set the API_KEY
-    environment variable to the decrypted value of your API key.
-4.  **Write code to access the secret.** You can now write code to
-    access the API_KEY environment variable. For example, if you are
-    using Python, you can access the environment variable using the
-    following code: import os; api_key = os.environ\[‘API_KEY1’\]
+3. **Access the secret in your codespace.** In GitHub Codespaces, 
+    secrets are automatically made available as environment variables,
+    and there's no need to manually export them in the `.bashrc` or 
+    `.env` file. You can directly use them in your code like this:
+   ```python
+import os
+
+api_key = os.getenv('API_KEY')   
+```
+	In this case, `API_KEY` is the name of the secret you've stored
+    in GitHub Secrets.
+4. **Write code to access the secret.** You can now write code to 
+    access the API_KEY environment variable. For example, if you are 
+    using Python, you can access the environment variable using the 
+    following code: 
+```python
+import os; 
+api_key = os.environ['API_KEY1']
+```
+
+I wrote this as a quick reminder to myself. Hope it helps you too. There
+will be more small how-tos added here as I write them.
