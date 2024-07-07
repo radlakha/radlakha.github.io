@@ -6,6 +6,7 @@ layout: post
 tags:
 - workflow
 title: Here is how I publish to StickShift
+hidden: true
 ---
 
 I start with giving a title to the story or note I am posting. I also
