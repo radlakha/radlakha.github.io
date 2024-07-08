@@ -2,7 +2,7 @@
 author: Raman Adlakha
 bibliography: "D:.bib"
 categories: note
-image: bamboo_farm.jpg
+image: bamboo-farm.jpg
 layout: post
 tags:
 - github
