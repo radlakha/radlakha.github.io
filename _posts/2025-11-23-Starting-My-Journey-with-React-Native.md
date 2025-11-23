@@ -1,6 +1,6 @@
 ---
 author: Raman Adlakha
-categories: learning
+categories: note
 hidden: "false"
 image: ""
 layout: post
