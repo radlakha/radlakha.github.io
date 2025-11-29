@@ -2,7 +2,7 @@
 author: Raman Adlakha
 categories: note
 hidden: "false"
-image: ""
+image: "toot-bus.jpg"
 layout: post
 tags:
 - react-native
