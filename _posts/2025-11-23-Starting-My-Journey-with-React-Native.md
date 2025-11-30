@@ -1,7 +1,6 @@
 ---
 author: Raman Adlakha
 categories: note
-hidden: "false"
 image: "pigeon-202509.jpg"
 layout: post
 tags:
