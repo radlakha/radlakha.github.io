@@ -24,7 +24,7 @@ npx create-expo-app@latest InPact -t expo-template-blank-typescript
 I chose the **blank TypeScript template** to start from scratch and understand every piece of the puzzle.
 
 ## Key Learnings
-Coming from a web background, the biggest shift is in the UI primitives:
+It helps to compare the UI primitives of web and mobile.
 *   Instead of `<div>`, we use `<View>`.
 *   Instead of `<span>` or `<p>`, we use `<Text>`.
 *   There is no CSS file (yet); we use `StyleSheet` in JavaScript.
@@ -37,3 +37,4 @@ I explored the project structure:
 And I successfully modified the app to say "Hello InPact!".
 
 Stay tuned for the next session where we will tackle **User Onboarding** and **Authentication**.
+*Next post is [here](/2025-11-24-React-Native-Fundamentals/).*

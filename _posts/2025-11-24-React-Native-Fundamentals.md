@@ -11,6 +11,7 @@ tags:
 - flexbox
 title: "React Native Fundamentals: Components, Props, and Styling"
 ---
+*The first post in this series of notes is [here](/2025-11-23-Starting-My-Journey-with-React-Native/).*
 
 In this session, we moved beyond "Hello World" and started building the actual UI for **InPact**. We explored the core building blocks of React Native and how they differ from the web.
 
