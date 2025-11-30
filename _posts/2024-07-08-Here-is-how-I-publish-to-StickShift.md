@@ -1,7 +1,6 @@
 ---
 author: Raman Adlakha
 categories: story
-hidden: "true"
 image: boy-on-stairs.jpg
 layout: post
 tags:
