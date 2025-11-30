@@ -1,8 +1,7 @@
 ---
 author: Raman Adlakha
 categories: note
-hidden: "false"
-image: ""
+image: "pigeon-202509.jpg"
 layout: post
 tags:
 - react-native
