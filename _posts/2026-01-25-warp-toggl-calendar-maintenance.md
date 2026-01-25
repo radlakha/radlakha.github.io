@@ -2,9 +2,9 @@
 layout: post
 title: "Warp in practice: maintaining a legacy Toggl GAS integration with Vakya"
 author: "Raman Adlakha"
-categories: note
+categories: story
 tags: [warp, agents, github, gas, toggl, automation]
-image: toggl.jpg
+image: warp-toggl-calendar-maintenance.jpg
 ---
 
 Over the last few weeks I’ve been slowly building up a collaboration workflow between myself and an AI agent (Vakya Sutra) inside Warp. Earlier posts focused on using Warp as an Agentic Development Environment and on giving Vakya a proper identity, branching strategy, and PR rituals.

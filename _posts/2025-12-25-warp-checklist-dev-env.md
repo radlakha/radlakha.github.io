@@ -1,6 +1,6 @@
 ---
 author: Raman Adlakha
-categories: note
+categories: story
 image: warp-1.jpg
 layout: post
 tags: [warp, ai, dev-environment]

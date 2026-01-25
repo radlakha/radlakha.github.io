@@ -2,9 +2,9 @@
 layout: post
 title: "Setting up Vakya Sutra as an ambient agent for checklist"
 author: "Raman Adlakha"
-categories: [development, tooling]
+categories: story
 tags: [warp, checklist, agents, github, tdd, automation]
-image: vakya.png
+image: warp-checklist-agent-vakya.jpg
 ---
 
 Over the last few days I’ve been shaping a collaboration workflow between myself and an AI agent for the `checklist` project. The goal is to make the agent feel like a real collaborator: someone with their own identity, git history, and pull requests that I can review like any other teammate.
